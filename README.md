@@ -41,6 +41,16 @@ Freetown Student Housing is a responsive, multi-page website that helps students
 | **Currency** | Leones (Le) |
 
 ## Screenshots
+<img width="1170" height="1600" alt="HOME PAGE" src="https://github.com/user-attachments/assets/7ee468c1-7857-4fd8-b995-7c3dfb0fe005" />
+
+<img width="1458" height="1600" alt="ABOUT PAGE" src="https://github.com/user-attachments/assets/c84a7d81-1ddd-4084-a338-c548d43fdd4a" />
+
+<img width="1600" height="1562" alt="CONTACT PAGE" src="https://github.com/user-attachments/assets/8cfff8c7-8ab7-444c-bfa9-a4c734455ff4" />
+
+<img width="1600" height="1370" alt="LISTINGS PAGE" src="https://github.com/user-attachments/assets/e78f056c-f678-436c-96bc-7b494cdb9057" />
+
+<img width="1419" height="1600" alt="BOOKING REQUEST PAGE" src="https://github.com/user-attachments/assets/54690e43-5557-447a-ae0e-348434467f4c" />
+
 
 ### Home
 ![Home page: hero, search form, featured accommodations](screenshots/home.png)
