@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freetown Student Housing | Home</title>
+  <link rel="stylesheet" href="./CSS/main.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="./index.html" class="brand-logo">FREETOWN STUDENT HOUSING</a>
+      <ul class="nav-links">
+        <li><a href="./index.html" class="active">Home</a></li>
+        <li><a href="./pages/about.html">About</a></li>
+        <li><a href="./pages/listings.html">Listings</a></li>
+        <li><a href="./pages/contact.html">Contact</a></li>
+        <li><a href="./pages/contact.html" class="auth-link">Login / Register</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content">
+      <h1>Find safe, affordable student housing near your campus</h1>
+      <p>Verified listings, Direct contact, No agent fees</p>
+    </div>
+
+    <div class="hero-contentss">
+       <a href="./pages/about.html" class="btn btn-primary">Search Listings</a>
+    </div>
+  </section>
+
+  <!-- Search & Filter Bar -->
+  <div class="container">
+    <div class="search-filter-bar">
+      <form action="./pages/listings.html" method="GET" class="filter-grid">
+        <div class="filter-group">
+          <label>Location</label>
+          <select name="location">
+            <option value="congo-cross">Congo Cross</option>
+            <option value="hill-station">Hill Station</option>
+            <option value="brookfields">Brookfields</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label>Price Range</label>
+          <select name="price">
+            <option value="400-900">Le 400 - 900</option>
+            <option value="900-1500">Le 900 - 1500</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label>Rooms</label>
+          <select name="rooms">
+            <option value="1">1 room</option>
+            <option value="2">2 rooms</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Search</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Features Section -->
+  <section class="container">
+    <h2 class="section-title">Why students choose us</h2>
+    <div class="cards-grid">
+      <div class="stat-card">
+        <h3>★ Verified listings</h3>
+        <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 5px;">Every room checked</p>
+      </div>
+      <div class="stat-card">
+        <h3>★ Direct contact</h3>
+        <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 5px;">Message landlords fast</p>
+      </div>
+      <div class="stat-card">
+        <h3>★ Students reviews</h3>
+        <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 5px;">Real tenant feedback</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Accommodations -->
+  <section class="container">
+    <h2 class="section-title">Featured Accommodations</h2>
+    <div class="cards-grid">
+      
+      <div class="listing-card">
+        <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=600&q=80" alt="Room preview">
+        <div class="listing-card-body">
+          <div class="listing-card-title">Room near Limkokwing</div>
+          <div class="listing-card-price">Le 800 / month</div>
+          <a href="./pages/listings.html" class="btn btn-secondary btn-block">View Details</a>
+        </div>
+      </div>
+
+      <div class="listing-card">
+        <img src="https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=600&q=80" alt="Room preview">
+        <div class="listing-card-body">
+          <div class="listing-card-title">Room near Limkokwing</div>
+          <div class="listing-card-price">Le 800 / month</div>
+          <a href="./pages/listings.html" class="btn btn-secondary btn-block">View Details</a>
+        </div>
+      </div>
+
+      <div class="listing-card">
+        <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=600&q=80" alt="Room preview">
+        <div class="listing-card-body">
+          <div class="listing-card-title">Room near Limkokwing</div>
+          <div class="listing-card-price">Le 800 / month</div>
+          <a href="./pages/listings.html" class="btn btn-secondary btn-block">View Details</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Testimonial -->
+  <section class="container">
+    <div class="testimonial-banner">
+      <blockquote>“I found my room near Limkokwing in two days, no stress, no scam.”</blockquote>
+      <cite>— Aminata Sesay, 2nd year IT student</cite>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Freetown Student</h4>
+          <p>Helping students find safe, verified rooms near their campus.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./pages/about.html">About</a></li>
+            <li><a href="./pages/listings.html">Listings</a></li>
+            <li><a href="./pages/contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="./pages/contact.html">FAQ</a></li>
+            <li><a href="./pages/about.html">How it works</a></li>
+            <li><a href="#">Safety tips</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p>support@fsh.sl</p>
+          <p>+232 88 176 514</p>
+          <p>Freetown, Sierra Leone</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        @Freetown Student Housing
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
